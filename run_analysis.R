@@ -33,5 +33,5 @@ names(datMain) <- gsub("std\\(\\)", "StandardDev.", names(datMain))
 
 # 5). Create a second independent itidy data set with the average of each variable for each activity and each subject.
 datTidy <- aggregate( . ~Subject + Activity, datMain, mean)
-write.table(datTidy, file = "tidy_data.txt")
+write.table(datTidy, file = "tidy_data.txt",row.names = FALSE)
 
