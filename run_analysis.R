@@ -21,7 +21,7 @@ datMain_pos <- grep("mean\\(\\)|std\\(\\)",features$V2)
 datMain_pos <- c(1,2,datMain_pos+2)               # Add the first two columns and adjust for the shift.
 datMain <- datMain_raw[,datMain_pos]
 
-# 3). USe descriptive activity anmes to name the activities in the data set.
+# 3). Use descriptive activity names to name the activities in the data set.
 activity_temp <- as.character(activity_labels$V2[datMain$Activity])
 datMain$Activity <- activity_temp 
 
