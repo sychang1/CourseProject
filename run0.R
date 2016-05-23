@@ -1,5 +1,5 @@
 # Read the raw data.
-
+  
 features <- read.table("./UCI HAR Dataset/features.txt")
 activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
 datX_Test <- read.table("./UCI HAR Dataset/test/X_test.txt")

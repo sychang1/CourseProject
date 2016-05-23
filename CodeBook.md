@@ -15,3 +15,8 @@ run_analysis.R
 * Use easier to understand names for the variables: prefix "t" -> "Time of", prefix "f" -> "Frequency of", etc.
 * Create a tidy data "datTidy" by aggregating in terms of "Subject" and "Acitivity" and applying the function mean.
 * Save the final result as "tidy_data.txt".
+
+NOTES:
+------
+
+* Please, also see the comments within the scripts.
